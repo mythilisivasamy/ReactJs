@@ -1,0 +1,20 @@
+﻿   div div {
+      background-color: lightblue;
+      width: 500px;
+      padding: 25px;
+      border: 25px solid pink;
+      margin:25px;
+     }
+
+    ul li+ul li:last-child{
+    outline: red dotted 2px;
+    width:100px;
+    }
+
+    p>span {
+    text-shadow:#ff0000 3px -5px 1px;
+    }
+  
+  [class^="top"] {
+  background: yellow;
+}
